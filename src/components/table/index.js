@@ -4,9 +4,9 @@ import {
   TableBody,
   MissionStatus,
   JoinMission,
-} from './styles/missions';
+} from './styles/table';
 
-const Missions = () => {
+const Table = () => {
   return (
     <MissionsWrapper>
       <MainHeadings>
@@ -93,4 +93,4 @@ const Missions = () => {
   );
 };
 
-export default Missions;
+export default Table;
