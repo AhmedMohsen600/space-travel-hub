@@ -1,12 +1,7 @@
-import './App.css';
-import Missions from './pages/missions';
+import PageRoutes from './routes/pages-routes';
 
 function App() {
-  return (
-    <div className="App">
-      <Missions />
-    </div>
-  );
+  return <PageRoutes />;
 }
 
 export default App;
