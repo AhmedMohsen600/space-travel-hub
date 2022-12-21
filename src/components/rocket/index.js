@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchRockets, reservation } from '../../features/rockets/rocketsSlice';
 import {
   Container,
   RocketName,
@@ -8,54 +11,50 @@ import {
   ImageHolder,
   ReserveBtn,
   Inner,
+  Loading,
+  Group,
+  Mark,
 } from './styles/rocket';
 
 export default function Rocket() {
+  const dispatch = useDispatch();
+
+  const rockets = useSelector((state) => state.rockets.data);
+
+  const loading = useSelector((state) => state.rockets.loading);
+
+  useEffect(() => {
+    if (rockets.length) return;
+    dispatch(fetchRockets());
+  }, [dispatch, rockets.length]);
+
   return (
     <Container>
       <Inner>
-        <RocketHolder>
-          <ImageHolder>
-            <RocketImage src="https://img.freepik.com/free-vector/rocket-flying-moon-cartoon-vector-icon-illustration-technology-transportation-icon-isolated_138676-5157.jpg?w=2000" />
-          </ImageHolder>
-          <RocketInfoHolder>
-            <RocketName>Falcon 1</RocketName>
-            <RocketDescription>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              nobis eveniet atque officiis ab corporis labore accusamus harum
-              praesentium laboriosam?
-            </RocketDescription>
-            <ReserveBtn>Reverse Rocket</ReserveBtn>
-          </RocketInfoHolder>
-        </RocketHolder>
-        <RocketHolder>
-          <ImageHolder>
-            <RocketImage src="https://img.freepik.com/free-vector/rocket-flying-moon-cartoon-vector-icon-illustration-technology-transportation-icon-isolated_138676-5157.jpg?w=2000" />
-          </ImageHolder>
-          <RocketInfoHolder>
-            <RocketName>Falcon 1</RocketName>
-            <RocketDescription>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              nobis eveniet atque officiis ab corporis labore accusamus harum
-              praesentium laboriosam?
-            </RocketDescription>
-            <ReserveBtn>Reverse Rocket</ReserveBtn>
-          </RocketInfoHolder>
-        </RocketHolder>
-        <RocketHolder>
-          <ImageHolder>
-            <RocketImage src="https://img.freepik.com/free-vector/rocket-flying-moon-cartoon-vector-icon-illustration-technology-transportation-icon-isolated_138676-5157.jpg?w=2000" />
-          </ImageHolder>
-          <RocketInfoHolder>
-            <RocketName>Falcon 1</RocketName>
-            <RocketDescription>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              nobis eveniet atque officiis ab corporis labore accusamus harum
-              praesentium laboriosam?
-            </RocketDescription>
-            <ReserveBtn>Reverse Rocket</ReserveBtn>
-          </RocketInfoHolder>
-        </RocketHolder>
+        {loading ? (
+          <Loading>Loading</Loading>
+        ) : (
+          rockets.map((rocket) => (
+            <RocketHolder key={rocket.id}>
+              <ImageHolder>
+                <RocketImage src={rocket.flickr_images} />
+              </ImageHolder>
+              <RocketInfoHolder>
+                <RocketName>{rocket.rocket_name}</RocketName>
+                <Group>
+                  {rocket.reserved && <Mark>reserved</Mark>}
+                  <RocketDescription>{rocket.description}</RocketDescription>
+                </Group>
+                <ReserveBtn
+                  reserved={rocket.reserved}
+                  onClick={() => dispatch(reservation(rocket.id))}
+                >
+                  {rocket.reserved ? 'Cancel Reservation' : 'Reserve Rocket'}
+                </ReserveBtn>
+              </RocketInfoHolder>
+            </RocketHolder>
+          ))
+        )}
       </Inner>
     </Container>
   );
