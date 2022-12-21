@@ -19,11 +19,14 @@ import {
 export default function Rocket() {
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(fetchRockets());
-  }, [dispatch]);
   const rockets = useSelector((state) => state.rockets.data);
+
   const loading = useSelector((state) => state.rockets.loading);
+
+  useEffect(() => {
+    if (rockets.length) return;
+    dispatch(fetchRockets());
+  }, [dispatch, rockets.length]);
 
   return (
     <Container>
