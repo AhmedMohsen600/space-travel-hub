@@ -1,3 +1,5 @@
-export default function Rocket() {
-  return <div>Rocket page</div>;
+import { Rocket } from '../components';
+
+export default function RocketPage() {
+  return <Rocket />;
 }
