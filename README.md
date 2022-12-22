@@ -24,38 +24,41 @@
 
 # 📖 The Meal <a name="about-project"></a>
 
-> In this project, a website for Meals is being build. The external API used for showing Meals and its details is [MealsDB API](https://www.themealdb.com/api.php). The webapp have 2 user interfaces.
+> The project is all about presentation to rockets and missions released by SpaceX comapny details is here [RocketsDB API](https://api.spacexdata.com/v3/rockets) [MissionsDB API](https://api.spacexdata.com/v3/missions). The webapp have 3 user interfaces.
 
-- A home page showing a list of meals items that you can "like."
-- A popup window with more data about the meal that you can use to comment on it.
+- A home page showing a list of rockets.
+- Another page showing the missions.
+- And a profile page that shows all the reserved rockets and missions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
 - CSS
 - Javascript
+- ReactJs
+- Redux
 - Jest
-- React js
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Webpack</summary>
+  <summary>React</summary>
   <ul>
-    <li><a href="https://webpack.js.org/guides/getting-started/#basic-setup">Webpack</a></li>
+    <li><a href="https://reactjs.org/docs/getting-started.html">React</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Jest</summary>
+  <summary>Redux</summary>
   <ul>
-    <li><a href="https://jestjs.io/">Jest</a></li>
+    <li><a href="https://redux.js.org/introduction/getting-started">Redux</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
 - **Develop webapp around an API**
+- **Use Redux for state management**
 - **Conduct test to ensure all edge cases are covered**
 - **Create web page using given wireframe**
 - **Users can filter amount of movies displayed**
@@ -64,11 +67,12 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#)
+- [Live Demo Link](soon)
 
 ## 🚀 Project Details
 
 - [Ahmed Mohsen](https://github.com/AhmedMohsen600)
+- [Mohamed Khaled](https://github.com/z4cope)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -79,7 +83,7 @@ To get a local copy up and running follow these simple example steps.
 -Reach to following Github URL:
 
 ```
-https://github.com/AhmedMohsen600/math-calc.git
+https://github.com/AhmedMohsen600/space-travel-hub
 
 ```
 
@@ -90,7 +94,7 @@ https://github.com/AhmedMohsen600/math-calc.git
 -Type git clone in the terminal, paste the URL you copied earlier, and press "enter" to create your local clone.
 
 ```
-$ git clone https://github.com/AhmedMohsen600/math-calc.git
+$ git clone https://github.com/AhmedMohsen600/space-travel-hub
 ```
 
 # Install Dependencies(with following Command)
@@ -130,13 +134,11 @@ Clone this repository to your desired folder:
 
     _cd PATH_
 
-    _git clone https://github.com/AhmedMohsen600/math-calc.git
+    _git clone https://github.com/AhmedMohsen600/space-travel-hub
 
-\_cd math-calc
+\_cd space-trave-hub
 
 _npm install_
-
-_npm run build_
 
 _npm start_
 
@@ -183,6 +185,11 @@ You can deploy this project using:
 - GitHub: [@Ahmed Mohsen](https://github.com/AhmedMohsen600)
 - LinkedIn: [@Ahmed Mohsen](https://www.linkedin.com/in/ahmed-mohsen-bb75b2194/)
 
+👤 **Ahmed Mohsen**
+
+- GitHub: [@Mohamed Khaled](https://github.com/z4cope)
+- LinkedIn: [@Mohamed Khaled](https://www.linkedin.com/in/mohamed-khaled-10138a1b7/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
@@ -195,7 +202,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Zainab-Alzubair/the-meal/issues).
+Feel free to check the [issues page](https://github.com/AhmedMohsen600/space-travel-hub/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
