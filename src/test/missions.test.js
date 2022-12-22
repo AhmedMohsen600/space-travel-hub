@@ -1,6 +1,6 @@
-import { Table } from '../components';
 import { render } from '@testing-library/react';
 import { useSelector } from 'react-redux';
+import { Table } from '../components';
 
 jest.mock('react-redux');
 
