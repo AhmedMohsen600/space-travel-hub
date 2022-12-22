@@ -12,10 +12,11 @@ Object {
           class="header__Nav-sc-279mzc-1 eWOltz"
         >
           <div
-            class="header__Logo-sc-279mzc-4 iSOuiK"
+            class="header__Logo-sc-279mzc-4 gSiBCi"
           >
             <img
-              class="header__Image-sc-279mzc-5"
+              class="header__Image-sc-279mzc-5 fOHBiU"
+              src="/travel-hub.png"
             />
             <h1
               class="header__Title-sc-279mzc-6 gkSbdH"
@@ -27,7 +28,7 @@ Object {
             class="header__Group-sc-279mzc-2 eowlak"
           >
             <li
-              class="header__TextLink-sc-279mzc-3 gDFtmI"
+              class="header__TextLink-sc-279mzc-3 gthzWb"
             >
               <a
                 activeclassname="active"
@@ -39,7 +40,7 @@ Object {
               </a>
             </li>
             <li
-              class="header__TextLink-sc-279mzc-3 gDFtmI"
+              class="header__TextLink-sc-279mzc-3 gthzWb"
             >
               <a
                 activeclassname="active"
@@ -50,7 +51,7 @@ Object {
               </a>
             </li>
             <li
-              class="header__TextLink-sc-279mzc-3 gDFtmI"
+              class="header__TextLink-sc-279mzc-3 gthzWb"
             >
               <a
                 activeclassname="active"
@@ -73,10 +74,11 @@ Object {
         class="header__Nav-sc-279mzc-1 eWOltz"
       >
         <div
-          class="header__Logo-sc-279mzc-4 iSOuiK"
+          class="header__Logo-sc-279mzc-4 gSiBCi"
         >
           <img
-            class="header__Image-sc-279mzc-5"
+            class="header__Image-sc-279mzc-5 fOHBiU"
+            src="/travel-hub.png"
           />
           <h1
             class="header__Title-sc-279mzc-6 gkSbdH"
@@ -88,7 +90,7 @@ Object {
           class="header__Group-sc-279mzc-2 eowlak"
         >
           <li
-            class="header__TextLink-sc-279mzc-3 gDFtmI"
+            class="header__TextLink-sc-279mzc-3 gthzWb"
           >
             <a
               activeclassname="active"
@@ -100,7 +102,7 @@ Object {
             </a>
           </li>
           <li
-            class="header__TextLink-sc-279mzc-3 gDFtmI"
+            class="header__TextLink-sc-279mzc-3 gthzWb"
           >
             <a
               activeclassname="active"
@@ -111,7 +113,7 @@ Object {
             </a>
           </li>
           <li
-            class="header__TextLink-sc-279mzc-3 gDFtmI"
+            class="header__TextLink-sc-279mzc-3 gthzWb"
           >
             <a
               activeclassname="active"
