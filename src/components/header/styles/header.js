@@ -24,6 +24,9 @@ export const Group = styled.ul`
 export const TextLink = styled.li`
   font-size: 20px;
   color: ${({ active }) => (active ? 'red' : 'black')};
+  .active {
+    color: red;
+  }
 `;
 
 export const Logo = styled.div`
