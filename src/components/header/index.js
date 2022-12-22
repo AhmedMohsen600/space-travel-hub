@@ -17,7 +17,7 @@ export default function Header() {
       <Container>
         <Nav>
           <Logo>
-            <Image />
+            <Image src="/travel-hub.png" />
             <Title>Space Travel&apos;s hub</Title>
           </Logo>
           <Group>

@@ -23,18 +23,20 @@ export const Group = styled.ul`
 
 export const TextLink = styled.li`
   font-size: 20px;
-  color: ${({ active }) => (active ? 'red' : 'black')};
   .active {
-    color: red;
+    color: #1aa1b9;
   }
 `;
 
 export const Logo = styled.div`
   display: flex;
+  align-items: center;
   gap: 16px;
 `;
 
-export const Image = styled.img``;
+export const Image = styled.img`
+  width: 10%;
+`;
 
 export const Title = styled.h1`
   font-size: 24px;

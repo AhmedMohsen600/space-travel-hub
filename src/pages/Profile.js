@@ -1,14 +1,19 @@
 import { useSelector } from 'react-redux';
+import { Profile } from '../components';
 
-export default function Profile() {
+export default function ProfilePage() {
   const reservedRockets = useSelector((state) => state.rockets.data).filter(
     (rocket) => rocket.reserved === true
   );
+
+  const reservedMissions = useSelector((state) =>
+    state.missions.missionsArr.filter((mission) => mission.activeMission)
+  );
+
   return (
-    <div>
-      {reservedRockets.map((rocket) => (
-        <div key={rocket.id}>{rocket.rocket_name}</div>
-      ))}
-    </div>
+    <Profile
+      reservedRockets={reservedRockets}
+      reservedMissions={reservedMissions}
+    />
   );
 }
