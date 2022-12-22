@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test table component Should render table component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <table
+        class="sc-bcXHqe dtPdZx"
+      >
+        <thead
+          class="sc-gswNZR iEyzvC"
+        >
+          <tr>
+            <th>
+              Mission
+            </th>
+            <th>
+              Description
+            </th>
+            <th>
+              Status
+            </th>
+            <th
+              aria-label="Join or leave mission"
+            />
+          </tr>
+        </thead>
+        <tbody
+          class="sc-dkrFOg kaTQVX"
+        >
+          <tr>
+            <td
+              class="sc-hLBbgP esKiuy"
+            >
+              first mission
+            </td>
+            <td>
+              lorem ipsum
+            </td>
+            <td
+              class="sc-hLBbgP esKiuy"
+            >
+              <h2
+                class="sc-eDvSVe kyTCAT"
+                type="button"
+              >
+                Active Member
+              </h2>
+            </td>
+            <td
+              class="sc-hLBbgP esKiuy"
+            >
+              <button
+                class="sc-jSUZER ivsIWg"
+                type="button"
+              >
+                Leave Mission
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>,
+  "container": <div>
+    <table
+      class="sc-bcXHqe dtPdZx"
+    >
+      <thead
+        class="sc-gswNZR iEyzvC"
+      >
+        <tr>
+          <th>
+            Mission
+          </th>
+          <th>
+            Description
+          </th>
+          <th>
+            Status
+          </th>
+          <th
+            aria-label="Join or leave mission"
+          />
+        </tr>
+      </thead>
+      <tbody
+        class="sc-dkrFOg kaTQVX"
+      >
+        <tr>
+          <td
+            class="sc-hLBbgP esKiuy"
+          >
+            first mission
+          </td>
+          <td>
+            lorem ipsum
+          </td>
+          <td
+            class="sc-hLBbgP esKiuy"
+          >
+            <h2
+              class="sc-eDvSVe kyTCAT"
+              type="button"
+            >
+              Active Member
+            </h2>
+          </td>
+          <td
+            class="sc-hLBbgP esKiuy"
+          >
+            <button
+              class="sc-jSUZER ivsIWg"
+              type="button"
+            >
+              Leave Mission
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
