@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
-import { Header } from '../components';
 import { BrowserRouter } from 'react-router-dom';
+import { Header } from '../components';
 
 describe('Test header', () => {
   test('Should Test header component', () => {
