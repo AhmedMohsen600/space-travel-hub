@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test header Should Test header component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="header__Container-sc-279mzc-0 hXldkA"
+      >
+        <nav
+          class="header__Nav-sc-279mzc-1 eWOltz"
+        >
+          <div
+            class="header__Logo-sc-279mzc-4 iSOuiK"
+          >
+            <img
+              class="header__Image-sc-279mzc-5"
+            />
+            <h1
+              class="header__Title-sc-279mzc-6 gkSbdH"
+            >
+              Space Travel's hub
+            </h1>
+          </div>
+          <ul
+            class="header__Group-sc-279mzc-2 eowlak"
+          >
+            <li
+              class="header__TextLink-sc-279mzc-3 gDFtmI"
+            >
+              <a
+                activeclassname="active"
+                aria-current="page"
+                class="link active"
+                href="/"
+              >
+                Rockets
+              </a>
+            </li>
+            <li
+              class="header__TextLink-sc-279mzc-3 gDFtmI"
+            >
+              <a
+                activeclassname="active"
+                class="link"
+                href="/missions"
+              >
+                Missions
+              </a>
+            </li>
+            <li
+              class="header__TextLink-sc-279mzc-3 gDFtmI"
+            >
+              <a
+                activeclassname="active"
+                class="link"
+                href="/profile"
+              >
+                Profile
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="header__Container-sc-279mzc-0 hXldkA"
+    >
+      <nav
+        class="header__Nav-sc-279mzc-1 eWOltz"
+      >
+        <div
+          class="header__Logo-sc-279mzc-4 iSOuiK"
+        >
+          <img
+            class="header__Image-sc-279mzc-5"
+          />
+          <h1
+            class="header__Title-sc-279mzc-6 gkSbdH"
+          >
+            Space Travel's hub
+          </h1>
+        </div>
+        <ul
+          class="header__Group-sc-279mzc-2 eowlak"
+        >
+          <li
+            class="header__TextLink-sc-279mzc-3 gDFtmI"
+          >
+            <a
+              activeclassname="active"
+              aria-current="page"
+              class="link active"
+              href="/"
+            >
+              Rockets
+            </a>
+          </li>
+          <li
+            class="header__TextLink-sc-279mzc-3 gDFtmI"
+          >
+            <a
+              activeclassname="active"
+              class="link"
+              href="/missions"
+            >
+              Missions
+            </a>
+          </li>
+          <li
+            class="header__TextLink-sc-279mzc-3 gDFtmI"
+          >
+            <a
+              activeclassname="active"
+              class="link"
+              href="/profile"
+            >
+              Profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

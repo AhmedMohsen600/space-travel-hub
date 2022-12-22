@@ -1,4 +1,4 @@
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import {
   Container,
   Nav,
@@ -12,7 +12,6 @@ import { links } from '../../fixtures/links';
 import './styles/nav.css';
 
 export default function Header() {
-  const { pathname } = useLocation();
   return (
     <>
       <Container>
@@ -23,10 +22,10 @@ export default function Header() {
           </Logo>
           <Group>
             {links.map(({ url, text }) => (
-              <TextLink active={url === pathname} key={url}>
-                <Link className="link" to={url}>
+              <TextLink key={url}>
+                <NavLink activeclassname="active" className="link" to={url}>
                   {text}
-                </Link>
+                </NavLink>
               </TextLink>
             ))}
           </Group>
